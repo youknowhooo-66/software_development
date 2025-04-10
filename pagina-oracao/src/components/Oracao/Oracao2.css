@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: auto;
+    height: auto;
+
+}
+.button{
+width: 10%;
+flex-direction: column;
+justify-content: baseline;
+}
+.oracoes{
+
+
+}
+#label{
+
+
+}
