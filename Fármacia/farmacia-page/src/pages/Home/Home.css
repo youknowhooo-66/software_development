@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    padding: 25px;
+    height:160vh;
+    width: 97vw;
+  }
+
+  .grid-item {
+    background-color: var(--cor-fundo-padrao);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.p{
+color: black;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h1{
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

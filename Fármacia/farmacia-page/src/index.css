@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#root {
+  display: grid;
+  grid-template-areas:
+  'cabecalho'
+  'principal'
+  'rodape';
+
+grid-template-rows: auto 1fr auto;
+}
+
+:root {
+  --cor-primaria-clara: #e6e6e6; 
+  --cor-primaria: #ef97a4;
+  --cor-primaria-escura: #ce1f3a;
+
+  --cor-secundaria-clara: #ffffff;
+  --cor-secundaria: #e96a7e;
+  --cor-secundaria-escura: #e23e57;
+
+  --cor-fundo-padrao: #e6e6e6;
+  --cor-texto-padrao: #004d40;
+  --cor-texto-claro: #ffffff;
+
+  --cor-info: #42a5f5;
+  --cor-sucesso: #66bb6a;
+  --cor-aviso: #ffa726;
+  --cor-erro: #ef5350;
+
+  --cor-cinza: #cfd8dc;
+}
