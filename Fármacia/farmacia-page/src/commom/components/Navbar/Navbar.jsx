@@ -15,6 +15,12 @@ const Navbar = () => {
                 <li className="navbar-item">
                     <Link to="/pedirsenha" className="navbar-link">Pedir Atendimento</Link>
                 </li>
+                <li className="navbar-item">
+                    <Link to="/loja" className="navbar-link">Loja</Link>
+                </li>
+                <li className="navbar-item">
+                    <Link to="/sobre" className="navbar-link">Sobre</Link>
+                </li>
             </ul>
         </nav>
     );

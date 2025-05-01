@@ -1,23 +1,33 @@
-.grid-container {
-    display: grid;
-    padding: 25px;
-    height:160vh;
-    width: 97vw;
+.container-home {
+    display:flow-root;
+    background-color: var(--cor-fundo-padrao);
+    align-items: center;
+    justify-content: center;
   }
 
   .grid-item {
-    background-color: var(--cor-fundo-padrao);
     color: white;
     text-align: center;
-    padding: 20px;
     border-radius: 5px;
 }
-
+.label{
+  padding-top:2vh;
+  align-items:center;
+  flex-direction: column;
+  display: flex;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-large;
+}
 .p{
 color: black;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-bottom: 6vh;
 }
 .h1{
+  
+  padding-top: 2vh;
+
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
